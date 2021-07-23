@@ -1,2 +1,2 @@
-web:gunicorn myweb:myweb 
+web gunicorn myweb:myweb 
 
