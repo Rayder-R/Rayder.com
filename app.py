@@ -1,9 +1,14 @@
 from flask import Flask
-myweb=Flask(__name__) # 代表目前執行的模組
+myweb = Flask(__name__) # 代表目前執行的模組
 
 @myweb.route("/") # 函式的裝飾.供附加功能
 def home():
     return 'Hollo'
+
+@myweb.route("/a") # 函式的裝飾.供附加功能
+def a():
+    return 'Holloe aa'
+
 
 if __name__ == "__main__":  # 如果以主程式執行
     myweb.debug = True  
