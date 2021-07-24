@@ -11,5 +11,4 @@ def a():
 
 
 if __name__ == "__main__":  # 如果以主程式執行
-    myweb.debug = True  
     myweb.run()                # 立刻啟動伺服器
