@@ -3,7 +3,7 @@ myweb = Flask(__name__) # 代表目前執行的模組
 
 @myweb.route("/") # 函式的裝飾.供附加功能
 def home():
-    return render_template("text.html")
+    return render_template("home.html")
     
 @myweb.route("/a") # 函式的裝飾.供附加功能
 def a():
