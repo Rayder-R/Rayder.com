@@ -6,8 +6,7 @@ h1, h2, h3, h4, h5, h6  {
 /* masthead */
 
 .mashead {
-height: 40vh;
-min-height: 400px;
+height: 600px;
 width: 100vw;
 background-attachment: fixed;
 background-image: url('https://upload.cc/i1/2021/07/31/dpSoj9.jpg');
