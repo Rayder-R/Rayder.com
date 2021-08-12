@@ -5,9 +5,9 @@ myweb = Flask(__name__) # 代表目前執行的模組
 def home():
     return render_template("home1.html")
     
-@myweb.route("/a") # 函式的裝飾.供附加功能
-def a():
-    return 'Holloe aa'
+@myweb.route("/text") # 函式的裝飾.供附加功能
+def text():
+    return render_template("text.html")
 
 
 if __name__ == "__main__":  # 如果以主程式執行
