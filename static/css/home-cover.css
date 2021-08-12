@@ -1,31 +1,42 @@
 .name{
-  font-family: "Open Sans", sans-serif;
+  font-family: "Josefin Sans", sans-serif;
   color: white;
 }
 
-
-.a-text {
-  font-family: 'Noto Serif';
-  letter-spacing:-0.1px;
-  color: rgb(235, 235, 235);
-}
-.中文-白色-text {
-  font-family: 'Noto Sans TC', sans-serif;
-  color: white;
-}
-
-.中文-text {
-  
-  font-family: 'Noto Sans TC', sans-serif;
-  
+/* Noto Sans TC', sans-serif   /  "Josefin Sans", sans-serif / 
+ Noto Sans TC', sans-serif / Open Sans", sans-serif */
+ 
+.英文{
+  font-family: "Josefin Sans", sans-serif;
 }
 
 .title{
-  font-family:  'Noto Serif', serif;
+  font-family: "Josefin Sans", sans-serif;
   font-weight:bolder;
-  font-size: 23px;
+  letter-spacing:-1px;
+  font-size:1.7em;
   color: white
 }
+
+.小標題{
+  font-family: "Josefin Sans", sans-serif;
+  font-style:italic;
+  font-size:0.7em;
+  letter-spacing:-0.1px;
+  color: rgb(235, 235, 235);
+}
+
+
+.中文 {
+  font-family: 'Noto Sans TC', sans-serif;
+}
+.中文-白色 {
+  font-family: 'Noto Sans TC', sans-serif;
+  color: white;
+}
+
+
+
 
 p{padding:10px}
 
