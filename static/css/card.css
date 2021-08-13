@@ -259,12 +259,14 @@
 
 
 
-
+.carousel-box{
+  height:80vh
+}
 
 
 
 .carousel-frame{  
-    height:80vh ; /*can be anything*/
+    height:100% ; /*can be anything*/
     
     position: relative;
 }
