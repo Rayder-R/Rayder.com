@@ -1,11 +1,12 @@
-.name{
-  font-family: "Josefin Sans", sans-serif;
-  color: white;
-}
 
 /* "Noto Sans TC", sans-serif   /  "Josefin Sans", sans-serif / 
  Noto Sans TC', sans-serif / 'Open Sans', sans-serif */
  
+ .name{
+  font-family: "Josefin Sans", sans-serif;
+  color: white;
+}
+
 .英文{
   font-family: "Josefin Sans", sans-serif;
 }
@@ -26,6 +27,8 @@
   color: rgb(235, 235, 235);
 }
 
+p{padding:10px}
+
 
 .中文 {
   font-family: 'Noto Sans TC', sans-serif;
@@ -36,26 +39,42 @@
   font-weight: 400;
 }
 
-
+/* 區塊大標題 */
 .title-box{
   width: 100%;
+  text-align: center;
 }
-.ttile-00{
+.title-number{
+  color: #404040;
+  top: -1rem;
+  left: 0;
+  font-size: 2.5rem;
+  font-weight: 700;
+  opacity: 0.6;
+  z-index: -1;
+  line-height: 1;
+}
+
+.title-text{
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
-  font-size: 2.5em;
+  font-size: 1em;
   font-weight:500;
   color: #404040;
+}
 
+/* 小塊空白 */
 
+.佔位空白區{
+  height: 100px;
+  width: 100%;
 }
 
 
 
 
-p{padding:10px}
 
-/* masthead */
+/* masthead 首頁 */
 .mashead {
 height: 100vh;
 width: 100%;
