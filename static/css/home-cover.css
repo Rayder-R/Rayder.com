@@ -1,7 +1,22 @@
 
-/* "Noto Sans TC", sans-serif   /  "Josefin Sans", sans-serif / 
- Noto Sans TC', sans-serif / 'Open Sans', sans-serif */
+/* 文字好看 */                   
+
+/* 
+"Noto Sans TC", sans-serif    
+"Josefin Sans", sans-serif 
+'Open Sans', sans-serif 
+*/
  
+/* 數字好看 */
+
+/*
+font-family: 'Abril Fatface', cursive;  英文也好看
+font-family: 'Dosis', sans-serif;
+font-family: 'Exo', sans-serif;
+*/
+
+
+
  .name{
   font-family: "Josefin Sans", sans-serif;
   color: white;
@@ -45,6 +60,7 @@ p{padding:10px}
   text-align: center;
 }
 .title-number{
+  font-family: 'Abril Fatface', cursive;
   color: #404040;
   top: -1rem;
   left: 0;
@@ -58,9 +74,9 @@ p{padding:10px}
 .title-text{
   font-family: 'Noto Sans TC', sans-serif;
   text-align: center;
-  font-size: 1em;
-  font-weight:500;
-  color: #404040;
+  font-size: 1.2em;
+  font-weight: 400;
+  color: #7b7b7b;
 }
 
 /* 小塊空白 */
