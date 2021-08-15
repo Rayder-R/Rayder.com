@@ -7,7 +7,6 @@
 
 .card {
   float: left;
-  padding: 0 1.7rem;
   width: 50%;
 }
 .card .menu-content {
@@ -39,7 +38,7 @@
 }
 .card .wrapper {
   background-color: #fff;
-  min-height: 540px;
+  height: 300px;
   position: relative;
   overflow: hidden;
   box-shadow: 0 19px 38px rgba(0, 0, 0, 0.3), 0 15px 12px rgba(0, 0, 0, 0.2);
@@ -64,9 +63,12 @@
 }
 .card .title {
   margin-top: 10px;
+  font-size: 1.1em;
+  font-family: "Josefin Sans", sans-serif;
 }
 .card .text {
-  height: 70px;
+  height: 20px;
+  font-size: 0.1em;
   margin: 0;
 }
 .card input[type=checkbox] {
@@ -78,7 +80,7 @@
 
 
 .example-1 .wrapper {
-  background: url(https://upload.cc/i1/2021/08/12/czGETa.jpg) center/cover no-repeat;
+  background: url(https://upload.cc/i1/2021/08/15/cwgBCu.gif) center/cover no-repeat;
 }
 .example-1 .wrapper:hover .menu-content span {
   transform: translate(-50%, -10px);
@@ -259,9 +261,6 @@
 
 
 
-.carousel-box{
-  height:80vh
-}
 
 
 
