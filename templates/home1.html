@@ -30,11 +30,11 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
     crossorigin="anonymous"></script>
-  <script type="text/javascript" src="static/js/mashead-JS"></script>
+  <!-- <script type="text/javascript" src="static/js/mashead-JS"></script> -->
 
   <!-- 首頁封面 -->
 
-  <header class="mashead">
+  <div class="mashead mashead-fluid">
     <div class="container h-100  d-flex p-3 mx-auto flex-column">
       <div class="name">
         <h3 class="float-md-start mb-0">Rayeder</h3>
@@ -52,17 +52,17 @@
         </div>
       </div>
     </div>
-  </header>
+  </div>
+
 
 
   <main>
     <!-- 01區 -->
     <div class="">
-      <div id="a" class="container 中文 p-3">
-
+      <div id="a" class="container 中文 px-5">
         <div class="row">
           <div class="佔位空白區"></div>
-          <div class="mb-5">
+          <div class="">
             <div class="title-box ">
               <h1 class="title-number ">01</h1>
               <P class="title-text">色鉛筆繪畫</p>
@@ -106,62 +106,59 @@
 
     <!-- 02區 -->
     <div class="佔位空白區"></div>
-    <div class="container">
-      <div class="row">
-        <div class="">
-          <div class="title-box ">
-            <h1 class="title-number ">02</h1>
-            <P class="title-text">Photoshop繪圖</p>
-          </div>
-        </div>
-        <div class="佔位空白區"></div>
-        <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
-          <div class="carousel-indicators">
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-              aria-current="true" aria-label="Slide 1"></button>
-            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-              aria-label="Slide 2"></button>
-          </div>
-          <div class="carousel-inner">
-            <div class="carousel-item active">
-              <img src="https://upload.cc/i1/2021/08/12/czGETa.jpg" class="d-block w-100" alt="...">
-              <div class="carousel-caption ">
-                <h5>First slide label</h5>
-                <p>Some representative placeholder content for the first slide.</p>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <img src="https://upload.cc/i1/2021/08/12/rwFfo7.jpg
-              " class="d-block w-100" alt="...">
-              <div class="carousel-caption ">
-                <h5>Second slide label</h5>
-                <p>Some representative placeholder content for the second slide.</p>
-              </div>
-            </div>
-          </div>
-
-          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Previous</span>
-          </button>
-          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-            data-bs-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-            <span class="visually-hidden">Next</span>
-          </button>
-        </div>
-
-        <div class="h-100 p-5 bg-light border rounded-3">
-          <h2>Add borders</h2>
-          <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
-            look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
-            content for equal-height.</p>
-          <button class="btn btn-outline-secondary" type="button">Example button</button>
+    <div class="container px-4">
+      <div class="">
+        <div class="title-box ">
+          <h1 class="title-number ">02</h1>
+          <P class="title-text">Photoshop繪圖</p>
         </div>
       </div>
+      <div class="佔位空白區"></div>
+      <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+            aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="https://upload.cc/i1/2021/08/12/czGETa.jpg" class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5>First slide label</h5>
+              <p>Some representative placeholder content for the first slide.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="https://upload.cc/i1/2021/08/12/rwFfo7.jpg
+              " class="d-block w-100" alt="...">
+            <div class="carousel-caption ">
+              <h5>Second slide label</h5>
+              <p>Some representative placeholder content for the second slide.</p>
+            </div>
+          </div>
+        </div>
+
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <div class="h-100 p-3 bg-light border rounded-3">
+        <h2>Add borders</h2>
+        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
+          look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+          content for equal-height.</p>
+        <button class="btn btn-outline-secondary" type="button">Example button</button>
+      </div>
     </div>
-    <div class="佔位空白區"></div>
     <div class="灰色分隔區"></div>
     <!-- 03區 -->
     <div class="佔位空白區"></div>
@@ -173,14 +170,15 @@
     </div>
     <div class="佔位空白區"></div>
 
-    <div class="container my-5">
+    <div class="container-fluit px-2 ">
       <div class="row">
-        <div class="example-1 card">
+
+        <div class="example-1 card mb-4">
           <div class="wrapper">
             <div class="date">
               <span class="day">12</span>
               <span class="month">Aug</span>
-              <span class="year">2016</span>
+              <span class="year">2020</span>
             </div>
             <div class="header">
               <ul class="menu-content">
@@ -193,7 +191,7 @@
             </div>
             <div class="data">
               <div class="content">
-                <span class="author">Jane Doe</span>
+                <span class="author">Rayeder</span>
                 <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
                 <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the
                   Survive soundtrack, out today.</p>
@@ -202,6 +200,48 @@
             </div>
           </div>
         </div>
+
+        <div class="example-2 card mb-3">
+          <div class="wrapper">
+            <div class="date">
+              <span class="day">12</span>
+              <span class="month">Aug</span>
+              <span class="year">2020</span>
+            </div>
+            <div class="header">
+              <ul class="menu-content">
+                <li>
+                  <a href="#" class="fa fa-bookmark-o"></a>
+                </li>
+                <li><a href="#" class="fa fa-heart-o"><span>18</span></a></li>
+                <li><a href="#" class="fa fa-comment-o"><span>3</span></a></li>
+              </ul>
+            </div>
+            <div class="data">
+              <div class="content">
+                <span class="author">Rayeder</span>
+                <h1 class="title"><a href="#">Stranger Things: The sound of the Upside Down</a></h1>
+                <p class="text">The antsy bingers of Netflix will eagerly anticipate the digital release of the
+                  Survive soundtrack, out today.</p>
+                <a href="#" class="button">Read more</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="h-100 p-3 bg-light border rounded-3">
+        <h2>Add borders</h2>
+        <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
+          look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
+          content for equal-height.</p>
+        <button class="btn btn-outline-secondary" type="button">Example button</button>
+      </div>  
+    </div>
+
+
+    <div class="佔位空白區"></div>
+    <div class="灰色分隔區"></div>
+    <div class="佔位空白區"></div>
   </main>
 
   <!-- Site footer -->

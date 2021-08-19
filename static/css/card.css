@@ -7,7 +7,6 @@
 
 .card {
   float: left;
-  width: 50%;
 }
 .card .menu-content {
   margin: 0;
@@ -174,7 +173,7 @@
 
 
 .example-2 .wrapper {
-  background: url(https://upload.cc/i1/2021/08/12/rwFfo7.jpg) center/cover no-repeat;
+  background: url(https://upload.cc/i1/2021/08/19/5qldEt.gif  ) center/cover no-repeat;
 }
 .example-2 .wrapper:hover .menu-content span {
   transform: translate(-50%, -10px);

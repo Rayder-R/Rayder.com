@@ -87,7 +87,7 @@ p{padding:10px}
 }
 
 .灰色分隔區 {
-  height: 2rem;
+  height: 1rem;
   background-color: rgba(0, 0, 0, .1);
   border: solid rgba(0, 0, 0, .15);
   border-width: 1px 0;
