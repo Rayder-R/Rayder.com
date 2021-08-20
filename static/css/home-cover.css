@@ -17,7 +17,7 @@ font-family: 'Exo', sans-serif;
 
 
 
- .name{
+.英文-白色{
   font-family: "Josefin Sans", sans-serif;
   color: white;
 }
@@ -227,3 +227,70 @@ box-shadow: inset 0 0 60px 3rem rgb(0, 0, 0,1);
   }
 }
 /* 文字(end) */
+
+
+
+
+
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  right: 0;
+  background-color:rgb(50,50,50,0.7 );
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 20px 0px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 36px;
+  margin-left: 50px;
+  color: #fff;
+  background-color: rgba(66, 66, 66, 0.5);
+  padding: 0px 14px;
+  border-radius: 5px;
+}
+
+#main {
+  transition: margin-right 0.5s;
+  padding: 16px;
+  float: right;
+}
+
+#main span {
+  position: fixed;
+  top: 15px;
+  right: 15px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 0px 10px;
+  border-radius: 5px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
