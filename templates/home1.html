@@ -12,9 +12,10 @@
   <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
-  <!-- Css -->
+  <!-- 內部Css -->
   <link rel="stylesheet" type="text/css" href="static/css/home-cover.css">
   <link rel="stylesheet" type="text/css" href="static/css/card.css">
+  <!-- 外部icon-css -->
   <script src="https://kit.fontawesome.com/0be672eda5.js" crossorigin="anonymous"></script>
   <!-- googleapis -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -22,121 +23,102 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Dosis:wght@400;700&family=Exo:ital,wght@0,500;1,500&family=Julius+Sans+One&family=Noto+Sans+KR:wght@300&family=Noto+Sans+TC:wght@300;400;500&family=Noto+Serif:ital,wght@1,400;1,700&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300;1,400;1,600&family=Josefin+Sans:ital,wght@0,400;0,600;1,400;1,600&display=swap"
     rel="stylesheet">
-      <!-- reference your installed Font Awesome Free package's files here -->
+  <!-- reference your installed Font Awesome Free package's files here -->
 
 
 </head>
 
 <body>
-
+  <!-- bootstrap-js -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
     crossorigin="anonymous"></script>
-
-
+  <!-- js -->
   <script src="/static/js/mashead-JS.js" type="text/javascript"></script>
-  <!-- <script type="text/javascript" src="static/js/mashead-JS"></script> -->
+
 
   <!-- 首頁封面 -->
-
-  <!-- <div class="row mx-auto flex-column">
-    <h3 class="float-md-start mb-0">Rayeder</h3>
-    <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-      <a href="#home">Home</a>
-      <a href="#section2">About</a>
-      <a href="#section3">Services</a>
-      <a href="#section4">Clients</a>
-      <a href="#section5">Contact</a>
-    </div>
-    <div id="main" class="text-right">
-      <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-    </div>
-  </div> -->
-
-
-
-
   <div class="mashead mashead-fluid clearfix">
     <div class="container h-100  d-flex p-3 mx-auto flex-column">
-      <div class="">
+      <!-- 右邊選單 -->
+      <div>
         <h3 class="float-md-start mt-3 英文-白色">Rayeder</h3>
-        
-        <div id="mySidenav" class="sidenav">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="#home"><i class="fas fa-user-alt mx-4"></i>Home</a>
-          <a href="#section2"><i class="fas fa-user-alt mx-4"></i>About</a>  
-          <a href="#section3"><i class="fas fa-user-alt mx-4"></i>Services</a>
-          <a href="#section4"><i class="fas fa-user-alt mx-4"></i>Clients</a>
-          <a href="#section5"><i class="fas fa-user-alt mx-4"></i>Contact</a>
-        </div>
+        <!-- 選單按鈕 -->
         <div id="main" class="text-right">
           <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
         </div>
+        <!-- 選單內頁 -->
+        <div id="mySidenav" class="sidenav 中文-白色">
+          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+          <a class="" href="#home1"><i class="fas fa-user-alt mx-4"></i>首頁</a>
+          <a class="" href="#section2"><i class="fas fa-user-alt mx-4"></i>簡歷表</a>
+          <a class="" href="#section3"><i class="fas fa-user-alt mx-4"></i>作品集</a>
+          <a class="" href="#section4"><i class="fas fa-user-alt mx-4"></i>網站資訊</a>
+          <!-- <a class="d-flex" href="#section5"><i class="fas fa-user-alt mx-4"></i></a> -->
+        </div>
       </div>
-      <div class="name">
+      <!-- 首頁上方導覽 -->
+      <div>
         <nav class="nav nav-masthead justify-content-center 中文-白色">
           <a class="nav-link active" aria-current="page" href="">首頁</a>
-          <a class="nav-link" href="#">關於</a>
-          <a class="nav-link" href="#">作品</a>
+          <a class="nav-link" href="#">簡歷</a>
+          <a class="nav-link" href="#">作品區</a>
         </nav>
       </div>
+      <!-- 封面內文區 -->
       <div class="row h-100 align-items-center">
         <div class="col-12 text-center">
           <h1 class="title ">Artist / Junior Programmer</h1>
           <p class="小標題">Art is a lie that makes us realize the truth -</p>
-          <a class="btn btn-secondary  btn-outline mt-3 中文-白色" href="#a">繪畫作品</a>
+          <a class="btn btn-secondary  btn-outline mt-3 中文-白色" href="#a">作品簡介</a>
         </div>
       </div>
     </div>
   </div>
 
-
-
   <main>
     <!-- 01區 -->
-    <div class="">
-      <div id="a" class="container 中文 px-3">
-        <div class="row">
-          <div class="佔位空白區"></div>
-          <div class="">
-            <div class="title-box ">
-              <h1 class="title-number ">01</h1>
-              <P class="title-text">色鉛筆繪畫</p>
-            </div>
-          </div>
-          <div class="佔位空白區"></div>
 
-          <div class="col-lg-5 mx-auto mb-5 mb-lg-0 d-flex flex-column">
-            <div class="number-block order-1 mb-3">
-              <div class="number-block-count">1</div>
-              <p class="text-muted text-uppercase mb-2">panting</p>
-              <h2>傑森史塔森肖像畫</h2>
-            </div>
-            <div class="order-3">
-              <p class="text-muted box">色鉛筆的多種顏色堆疊下,做出寫實的皮膚深淺,觀察人物當下的情感,刻畫出細微的神韻。</p>
-              <a class="btn btn-outline-secondary" href="#">查看作品集</a>
-            </div>
-            <img class="flex-grow-0 img-fluid shadow rounded order-2 mb-2"
-              src="https://upload.cc/i1/2021/08/09/hG2VJS.jpg" alt="">
-          </div>
+    <div id="a" class="container 中文 px-3">
+      <div class="row">
+        <!-- 01大標題 -->
+        <div class="佔位空白區"></div>
+        <div class="title-box mb-4">
+          <h1 class="title-number ">01</h1>
+          <P class="title-text">色鉛筆繪畫</p>
+        </div>
 
-          <div class="col-lg-5 mx-auto mt-5 mt-lg-0 d-flex flex-column">
-            <div class="number-block order-1 mb-3">
-              <div class="number-block-count">2</div>
-              <p class="text-muted text-uppercase mb-2">panting</p>
-              <h2>藍寶堅尼材質寫真</h2>
-            </div>
-            <div class="order-3">
-              <p class="text-muted box">臨摹跑車金屬的折射光影，在留白與色彩的比例拿捏下，做出反光的質感，最後加上樹梢的倒影。</p>
-              <a class="btn btn-outline-secondary" href="#">查看作品集</a>
-            </div>
-            <img class="flex-grow-0 img-fluid shadow rounded order-2 mb-2"
-              src="https://upload.cc/i1/2021/08/09/MugqXw.jpg" alt="">
+        <!-- 第一格 -->
+        <div class="col-lg-5 mx-auto mb-5 mb-lg-0 d-flex flex-column">
+          <div class="number-block order-1 mb-3">
+            <div class="number-block-count">1</div>
+            <p class="text-muted text-uppercase mb-2">panting</p>
+            <h2>傑森史塔森肖像畫</h2>
           </div>
+          <img class="flex-grow-0 img-fluid shadow rounded order-2 mb-2"
+            src="https://upload.cc/i1/2021/08/09/hG2VJS.jpg" alt="">
+          <div class="order-3">
+            <p class="text-muted box">色鉛筆的多種顏色堆疊下,做出寫實的皮膚深淺,觀察人物當下的情感,刻畫出細微的神韻。</p>
+            <a class="btn btn-outline-secondary" href="#">查看作品集</a>
+          </div>
+        </div>
+        <!-- 第二格 -->
+        <div class="col-lg-5 mx-auto mt-5 mt-lg-0 d-flex flex-column">
+          <div class="number-block order-1 mb-3">
+            <div class="number-block-count">2</div>
+            <p class="text-muted text-uppercase mb-2">panting</p>
+            <h2>藍寶堅尼材質寫真</h2>
+          </div>
+          <div class="order-3">
+            <p class="text-muted box">臨摹跑車金屬的折射光影，在留白與色彩的比例拿捏下，做出反光的質感，最後加上樹梢的倒影。</p>
+            <a class="btn btn-outline-secondary" href="#">查看作品集</a>
+          </div>
+          <img class="flex-grow-0 img-fluid shadow rounded order-2 mb-2"
+            src="https://upload.cc/i1/2021/08/09/MugqXw.jpg" alt="">
         </div>
       </div>
     </div>
+
     <div class="佔位空白區"></div>
     <div class="灰色分隔區"></div>
 
@@ -144,13 +126,13 @@
     <!-- 02區 -->
     <div class="佔位空白區"></div>
     <div class="container px-4">
-      <div class="">
-        <div class="title-box ">
-          <h1 class="title-number ">02</h1>
-          <P class="title-text">Photoshop繪圖</p>
-        </div>
+      <!-- 02大標題 -->
+      <div class="title-box mb-4">
+        <h1 class="title-number ">02</h1>
+        <P class="title-text">Photoshop繪圖</p>
       </div>
-      <div class="佔位空白區"></div>
+
+      <!-- 下方頁數格 -->
       <div id="carouselExampleCaptions" class="carousel slide mb-3" data-bs-ride="carousel">
         <div class="carousel-indicators">
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
@@ -158,6 +140,7 @@
           <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
             aria-label="Slide 2"></button>
         </div>
+        <!-- 第一頁圖1 -->
         <div class="carousel-inner">
           <div class="carousel-item active">
             <img src="https://upload.cc/i1/2021/08/12/czGETa.jpg" class="d-block w-100" alt="...">
@@ -166,6 +149,7 @@
               <p>Some representative placeholder content for the first slide.</p>
             </div>
           </div>
+          <!-- 第二頁圖2 -->
           <div class="carousel-item">
             <img src="https://upload.cc/i1/2021/08/12/rwFfo7.jpg
               " class="d-block w-100" alt="...">
@@ -175,6 +159,7 @@
             </div>
           </div>
         </div>
+
 
         <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
           data-bs-slide="prev">
@@ -197,19 +182,21 @@
       </div>
     </div>
     <div class="灰色分隔區"></div>
+
+
+
+
     <!-- 03區 -->
     <div class="佔位空白區"></div>
-    <div class="">
-      <div class="title-box ">
-        <h1 class="title-number ">03</h1>
-        <P class="title-text">Adobe After Effects動畫</p>
-      </div>
+    <div class="title-box ">
+      <h1 class="title-number mb-4">03</h1>
+      <P class="title-text">Adobe After Effects動畫</p>
     </div>
-    <div class="佔位空白區"></div>
+
 
     <div class="container-fluit px-2 ">
       <div class="row">
-
+        <!-- 第一格 -->
         <div class="example-1 card mb-4">
           <div class="wrapper">
             <div class="date">
@@ -237,7 +224,7 @@
             </div>
           </div>
         </div>
-
+        <!-- 第二格 -->
         <div class="example-2 card mb-3">
           <div class="wrapper">
             <div class="date">
@@ -266,6 +253,7 @@
           </div>
         </div>
       </div>
+      <!-- 文字區塊 -->
       <div class="h-100 p-3 bg-light border rounded-3">
         <h2>Add borders</h2>
         <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
@@ -278,7 +266,16 @@
 
     <div class="佔位空白區"></div>
     <div class="灰色分隔區"></div>
+
     <div class="佔位空白區"></div>
+    <div class="title-box mb-4">
+      <h1 class="title-number ">04</h1>
+      <P class="title-text">網頁前後端專案作品</p>
+    </div>
+    <div class="container">
+    <img class="flex-grow-0 img-fluid shadow rounded order-2 mb-2"
+    src="https://upload.cc/i1/2021/08/20/fGniC8.jpg" alt="">
+    </div>
   </main>
 
   <!-- Site footer -->
