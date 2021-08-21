@@ -1,0 +1,100 @@
+
+/* 文字好看 */                   
+
+/* 
+"Noto Sans TC", sans-serif    
+"Josefin Sans", sans-serif 
+'Open Sans', sans-serif 
+*/
+ 
+/* 數字好看 */
+
+/*
+font-family: 'Abril Fatface', cursive;  英文也好看
+font-family: 'Dosis', sans-serif;
+font-family: 'Exo', sans-serif;
+*/
+
+.英文-白色{
+    font-family: "Josefin Sans", sans-serif;
+    color: white;
+}
+  
+.英文{
+    font-family: "Josefin Sans", sans-serif;
+}
+  
+.title{
+    font-family: "Josefin Sans", sans-serif;
+    font-weight:bolder;
+    letter-spacing:-1px;
+    font-size:1.8em;
+    color: white
+}
+  
+.小標題{
+    font-family: "Josefin Sans", sans-serif;
+    font-style:italic;
+    font-size:0.7em;
+    letter-spacing:-0.1px;
+    color: rgb(235, 235, 235);
+}
+  
+p{
+    padding:10px;
+    font-size: 1.1em;
+}
+  
+  
+.中文 {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.中文-白色 {
+    font-family: 'Noto Sans TC', sans-serif;
+    color: white;
+    font-weight: 400;
+}
+  
+  /* 區塊大標題 */
+.title-box{
+    width: 100%;
+    text-align: center;
+}
+.title-number{
+    font-family: 'Abril Fatface', cursive;
+    color: #404040;
+    top: -1rem;
+    left: 0;
+    font-size: 2.5rem;
+    font-weight: 700;
+    opacity: 0.6;
+    z-index: -1;
+    line-height: 1;
+}
+  
+.title-text{
+    font-family: 'Noto Sans TC', sans-serif;
+    text-align: center;
+    font-size: 1.2em;
+    font-weight: 400;
+    color: #7b7b7b;
+}
+  
+  /* 小塊空白 */
+  
+.佔位空白區{
+    height: 100px;
+    width: 100%;
+}
+  
+.灰色分隔區 {
+    height: 1rem;
+    background-color: rgba(0, 0, 0, .1);
+    border: solid rgba(0, 0, 0, .15);
+    border-width: 1px 0;
+    box-shadow: inset 0 0.5em 1.5em rgb(0 0 0 / 10%), inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+  
+  
+  

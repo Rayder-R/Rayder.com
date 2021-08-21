@@ -1,0 +1,58 @@
+/* 右選單按鈕(start) */
+.sidenav {
+height: 100%;
+width: 0;
+position: fixed;
+z-index: 10;
+top: 0;
+right: 0;
+background-color:rgb(50,50,50,0.7 );
+overflow-x: hidden;
+transition: 0.5s;
+padding-top: 60px;
+}
+  
+.sidenav a {
+    padding: 8px 8px 20px 0px;
+    text-decoration: none;
+    font-size: 1em;
+    color: white;
+    display: block;
+    transition: 0.3s;
+    overflow: hidden;
+    white-space: nowrap;
+}
+  
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+  
+.sidenav .closebtn {
+    position: absolute;
+    top: 14px;
+    right: 13px;
+    font-size: 25px;
+    margin-left: 50px;
+    color: #fff;
+    background-color: rgba(66, 66, 66, 0.8);
+    padding: 04px 12px;
+    border-radius: 5px;
+}
+  
+#main {
+    transition: margin-right 0.5s;
+    padding: 16px;
+    float: right;
+}
+  
+#main span {
+    position: fixed;
+    top: 15px;
+    right: 15px;
+    color: #fff;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+  
+  /* 右選單按鈕(end) */
