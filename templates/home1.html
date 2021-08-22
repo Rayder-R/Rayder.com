@@ -40,7 +40,7 @@
 
 
   <!-- 首頁封面 -->
-  <div class="mashead mashead-fluid clearfix">
+  <div class="mashead  clearfix">
     <div class="container h-100  d-flex p-3 mx-auto flex-column">
       <!-- 右邊選單 -->
       <div>
@@ -52,10 +52,10 @@
         <!-- 選單內頁 -->
         <div id="mySidenav" class="sidenav 中文-白色">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a class="" href="#home1"><i class="fas fa-user-alt mx-4"></i>首頁</a>
-          <a class="" href="#section2"><i class="fas fa-user-alt mx-4"></i>簡歷表</a>
-          <a class="" href="#section3"><i class="fas fa-user-alt mx-4"></i>作品集</a>
-          <a class="" href="#section4"><i class="fas fa-user-alt mx-4"></i>網站資訊</a>
+          <a class="button" href="#home1"><i class="fas fa-user-alt mx-4"></i>首頁</a>
+          <a class="button" href="#section2"><i class="fas fa-address-card mx-4"></i>簡歷表</a>
+          <a class="button" href="#section3"><i class="fas fa-clone mx-4"></i>作品集</a>
+          <a class="button" href="#footer-im"><i class="fas fa-info-circle mx-4"></i>網站資訊</a>
           <!-- <a class="d-flex" href="#section5"><i class="fas fa-user-alt mx-4"></i></a> -->
         </div>
       </div>
@@ -91,7 +91,7 @@
         </div>
 
         <!-- 第一格 -->
-        <div class="col-lg-5 mx-auto mb-5 mb-lg-0 d-flex flex-column">
+        <div class="col-md-5 mx-auto mb-5 mb-md-0 d-flex flex-column">
           <div class="number-block order-1 mb-3">
             <div class="number-block-count">1</div>
             <p class="text-muted text-uppercase mb-2">panting</p>
@@ -105,7 +105,7 @@
           </div>
         </div>
         <!-- 第二格 -->
-        <div class="col-lg-5 mx-auto mt-5 mt-lg-0 d-flex flex-column">
+        <div class="col-md-5 mx-auto mt-5 mt-md-0 d-flex flex-column">
           <div class="number-block order-1 mb-3">
             <div class="number-block-count">2</div>
             <p class="text-muted text-uppercase mb-2">panting</p>
@@ -127,7 +127,7 @@
 
     <!-- 02區 -->
     <div class="佔位空白區"></div>
-    <div class="container px-4">
+    <div class="container col-md-8 px-4">
       <!-- 02大標題 -->
       <div class="title-box mb-4">
         <h1 class="title-number ">02</h1>
@@ -256,7 +256,7 @@
         </div>
       </div>
       <!-- 文字區塊 -->
-      <div class="h-100 p-3 bg-light border rounded-3">
+      <div class="h-100 p-3 bg-light ">
         <h2>Add borders</h2>
         <p>Or, keep it light and add a border for some added definition to the boundaries of your content. Be sure to
           look under the hood at the source HTML here as we've adjusted the alignment and sizing of both column's
@@ -287,25 +287,45 @@
         <img class="" src="https://upload.cc/i1/2021/08/21/HJ2rAt.png" alt="">
       </div>
       <div class="佔位空白區"></div>
-      <p class="title-text mb-3">專案能力流程介紹</p>
-
-
-
+      <p class="title-text mb-3"><i class="fas fa-code-branch px-3"></i>網頁專案能力流程介紹</p>
       <img class="img-fluid mb-2" src="https://upload.cc/i1/2021/08/21/8gve2Q.jpg" alt="">
+
+      <div class="accordion 中文" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+              aria-expanded="true" aria-controls="collapseOne">
+              內容介紹
+            </button>
+          </h2>
+          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+            data-bs-parent="#accordionExample">
+            <div class="accordion-body">
+              <strong>This is the first item's accordion body.</strong> It is shown by default, until the collapse
+              plugin adds the appropriate classes that we use to style each element. These classes control the overall
+              appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom
+              CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the
+              <code>.accordion-body</code>, though the transition does limit overflow.
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
+    <div class="佔位空白區"></div>
   </main>
 
   <!-- Site footer -->
-  <footer class="site-footer">
+  <footer class="site-footer" id="footer-im">
     <div class="container">
       <div class="row">
-        <div class="col-12">
-          <h6>About</h6>
-          <p class="text-justify">網站為個人作品集網站，實作種類為藝術／設計／程式撰寫，個人的靈感來源多為心靈類文學、科幻類哲學。</p>
+        <div class="col-12 p-1">
+          <h6 class="ps-3">About</h6>
+          <p class="text-justify">網站為個人作品集網站，實作種類為<span
+              class="footer-strong">藝術／設計／程式撰寫</span>，個人的靈感來源多為心靈類文學、科幻類哲學，程式編程將作為主要技術，往未來資料數據工程的方向來發展技術。</p>
         </div>
         <hr>
       </div>
-      <div class="container">
+      <div class="container p-0">
         <div class="row">
           <div class="">
             <p class="copyright-text">Copyright &copy; 2021 Rayeder曾瑞義 版權所有</p>
