@@ -9,10 +9,13 @@ def home():
 def resume():
     return render_template("resume.html")
 
-@myweb.route("/home") # 函式的裝飾.供附加功能
-def homet():
-    return render_template("home.html")
+@myweb.route("/work") # 函式的裝飾.供附加功能
+def work():
+    return render_template("work.html")
     
+
+
+
 @myweb.route("/text") # 函式的裝飾.供附加功能
 def text():
     return render_template("text.html")
