@@ -69,7 +69,7 @@
 }
 .card .text {
   height: 20px;
-  font-size: 0.1em;
+  font-size: 0.9em;
   margin: 0;
 }
 .card input[type=checkbox] {
@@ -136,7 +136,7 @@
 }
 .example-1 .data {
   color: #fff;
-  transform: translateY(calc(70px + 4em));
+  transform: translateY(calc(5px + 4em));
 }
 .example-1 .title a {
   color: #fff;
@@ -230,7 +230,7 @@
 }
 .example-2 .data {
   color: #fff;
-  transform: translateY(calc(70px + 4em));
+  transform: translateY(calc(5px + 4em));
 }
 .example-2 .title a {
   color: #fff;
