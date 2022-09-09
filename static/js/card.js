@@ -211,7 +211,7 @@ function init() {
 const waitForImages = () => {
 	const images = [...document.querySelectorAll("img")];
 	const totalImages = images.length;
-	let loadedImages = 0;
+	let loadedImages = 0;	
 	const loaderEl = document.querySelector(".loader span");
 
 	gsap.set(cardsContainerEl.children, {
