@@ -8,7 +8,7 @@ myweb = Flask(__name__)  # 代表目前執行的模組
 def home():
     return render_template("home1.html")
 
-
+#..
 @myweb.route("/resume")  # 函式的裝飾.供附加功能
 def resume():
     return render_template("resume.html")
