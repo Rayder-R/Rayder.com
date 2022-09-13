@@ -40,6 +40,15 @@ font-family: 'Exo', sans-serif;
     color: rgb(235, 235, 235);
 }
   
+
+.小標題_灰色{
+    font-family: "Josefin Sans", sans-serif;
+    font-style:italic;
+    font-size:0.7em;
+    letter-spacing:-0.1px;
+    color: rgb(130, 130, 130);
+}
+
 p{
     padding:10px;
     font-size: 1em;
