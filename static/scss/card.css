@@ -4,6 +4,7 @@
   --card-height: 300px;
   --card-transition-duration: 800ms;
   --card-transition-easing: ease;
+  
 }
 
 * {
@@ -11,6 +12,7 @@
   margin: 0;
   padding: 0;
 }
+a{ text-decoration:none}
 
 .card_contain {
   width: 100%;
