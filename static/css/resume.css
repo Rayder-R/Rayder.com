@@ -1,12 +1,27 @@
-.resume-1{
+.resume-1 {
     height: 100%;
 
 }
 
 
-.resume-1 img{
-    height: 400px;
+.resume-1 img {
+    height: 350px;
     width: auto;
     display: block;
     margin: auto;
+}
+
+
+/*中間的過度的橫線*/
+.link-top {
+    /* width: 50%; */
+    height: 1px;
+    border-top: solid #e5e5e5 1px;
+}
+
+/*畫一條再右邊的豎線*/
+.link-right {
+    /* width: 50px; */
+    height: 20%;
+    border-right: solid #e5e5e5 1px;
 }
