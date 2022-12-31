@@ -267,14 +267,14 @@ h1 {
   height: auto;
   padding: 8px;
   font-size: 14px;
-  width: 160px;
+  /* width: 160px; */
   border: 1px solid #dee2e6!important;
   border-radius: 20px;
 }
 .book-see:hover {
   transition: 0.3s ease;
-  transform: scale(1.10);
-  color: #fbcacb;
+  transform: scale(1.05);
+  color: #f0f0f0;
 }
 .book-see.book-blue {
   color: #a4e0eb;

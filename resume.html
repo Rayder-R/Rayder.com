@@ -18,6 +18,7 @@
     <link rel="stylesheet" type="text/css" href="static/css/text.css">
     <link rel="stylesheet" type="text/css" href="static/css/menu.css">
     <link rel="stylesheet" type="text/css" href="static/css/resume.css">
+    <link rel="stylesheet" type="text/css" href="static/scss/service.css">
     <!-- 外部icon-css -->
     <script src="https://kit.fontawesome.com/0be672eda5.js" crossorigin="anonymous"></script>
     <!-- googleapis -->
@@ -39,69 +40,79 @@
     <!-- js -->
     <script src="static/js/mashead-JS.js" type="text/javascript"></script>
 
-
     <!-- 首頁封面 -->
-    <div class="container h-100  d-flex p-3 mx-auto flex-column">
-        <!-- 右邊選單 -->
-        <div>
-            <h3 class="float-md-start mt-3 英文">Rayder</h3>
-            <!-- 選單按鈕 -->
-            <div id="main" class="text-right">
-                <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
-            </div>
-            <!-- 選單內頁 -->
-            <div id="mySidenav" class="sidenav 中文-白色">
-                <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-                <a class="button" href="index"><i class="fas fa-user-alt mx-4"></i>首頁</a>
-                <a class="button" href="resume"><i class="fas fa-address-card mx-4"></i>簡歷表</a>
-                <a class="button" href="work2"><i class="fas fa-clone mx-4"></i>作品集</a>
-                <!-- <a class="button" href="https://github.com/Rayder-01/"><i class="fa fa-github mx-4"></i>Github</a> -->
-                <a class="button" href="https://www.instagram.com/art.code.design/"><i
-                        class="fab fa-instagram mx-4"></i>Instagram</a>
-                <a class="button" href="#footer-im"><i class="fas fa-info-circle mx-4"></i>網站資訊</a>
-                <!-- <a class="d-flex" href="#section5"><i class="fas fa-user-alt mx-4"></i></a> -->
-            </div>
-        </div>
-    </div>
 
-    <div class="container resume-1">
-        <div class="row">
-            <div class="col-md-5 mt-md-5 me-md-4">
-                <img class="" src="https://i.im.ge/2022/10/08/1BMtaS.generated-file-name.md.jpg">
+
+
+    <div class="resume-1">
+
+        <!-- <div class="d-flex">
+                <div id="main" class="text-right">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+                <div id="mySidenav" class="sidenav 中文-白色">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a class="button" href="index"><i class="fas fa-user-alt mx-4"></i>首頁</a>
+                    <a class="button" href="resume"><i class="fas fa-address-card mx-4"></i>簡歷表</a>
+                    <a class="button" href="work2"><i class="fas fa-clone mx-4"></i>作品集</a>
+                    <a class="button" href="https://www.instagram.com/art.code.design/"><i
+                            class="fab fa-instagram mx-4"></i>Instagram</a>
+                    <a class="button" href="#footer-im"><i class="fas fa-info-circle mx-4"></i>網站資訊</a>
+                </div>
+        </div>  -->
+
+
+
+        <div class="row justify-content-center">
+            <div class="d-flex">
+                <div id="main" class="text-right">
+                    <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+                </div>
+                <div id="mySidenav" class="sidenav 中文-白色">
+                    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                    <a class="button" href="index"><i class="fas fa-user-alt mx-4"></i>首頁</a>
+                    <a class="button" href="resume"><i class="fas fa-address-card mx-4"></i>簡歷表</a>
+                    <a class="button" href="work2"><i class="fas fa-clone mx-4"></i>作品集</a>
+                    <a class="button" href="https://www.instagram.com/art.code.design/"><i
+                            class="fab fa-instagram mx-4"></i>Instagram</a>
+                    <a class="button" href="#footer-im"><i class="fas fa-info-circle mx-4"></i>網站資訊</a>
+                </div>
             </div>
+            <div class="col-9 col-md-5 mt-4 mt-md-0">
+                <img src="https://i.im.ge/2022/12/30/qW3Thz.2.jpg">
+                <!-- https://i.im.ge/2022/12/30/qW3Thz.2.jpg -->
+                <!-- https://i.im.ge/2022/10/08/1BMtaS.generated-file-name.md.jpg -->
+            </div>
+
             <!-- https://i.im.ge/2022/09/11/OGuicY.01.jpg -->
             <!-- https://upload.cc/i1/2021/08/11/e4hBG6.jpg -->
-            <div class="col-md-6 mt-md-5 mt-4 中文">
-                <h3 class="ms-3">簡歷:</h3>
-                <div class="row">
+            <div class="col-md-7 mt-md-5 mt-4 中文">
+                <h3 class="mx-3 mt-3 英文">Rayder</h3>
+                <p class="ms-3 text-muted pb-0 mb-3">簡歷:</p>
 
-                    <div class="col ps-0">
-                        <p class="ms-3 text-muted">• 國立雲林科技大學- 資訊管理系</p>
-                        <p class="ms-3 text-muted">• Android開發 實習經驗</p>
-                        <div class="mx-3 row justify-content-center">
-                            <div class="link-top col-10 " ></div>
-                        </div>
-                        <p class="mt-2 mx-3 text-muted">以跨領域學習來培養斜槓思維，科系涉及平面設計、行銷管理、及資訊管理。
-                        </p>
-                        <p class="mx-3 text-muted">
-                           目前已 Android UIUX 為主要工作，往視覺設計與APP前端開發相關。
-                        </p>
+                <div class="col ps-0">
+                    <p class="ms-3 text-muted">• 國立雲林科技大學- 資訊管理系</p>
+                    <p class="ms-3 text-muted">• Android app開發 實習經驗</p>
+                    <div class="mx-3 row justify-content-center">
+                        <div class="link-top col-10 "></div>
+                    </div>
 
-                        <!-- <p class=" text-muted">以多領域學習來培養能力以及斜槓思維，涉及平面設計、行銷管理、資訊管理。
-                            在學習不同領域的過程中實事求是，講求實際的成果。
-                        </p>
-                        <p class=" text-muted">
-                            將設計與行銷的知識用於各數據繪製或報表中。以資訊IT技能作為主要能力，往人工智慧數據分析處理/軟體工程師的方向來學習技術。
-                        </p> -->
+                    <p class="mt-2 mx-4 text-muted">以跨領域學習來培養斜槓思維，科系涉及平面設計、行銷管理、及資訊管理。
+                    </p>
+                    <p class="mx-4 text-muted">
+                        目前已 Android UIUX / android app development為主要工作項目，以及各式平面設計小圖製作。
+                    </p>
+                    <div class="row justify-content-center ">
+                        <a class="col col-lg-8 book-see my-3 mx-5" href="work2" type="button">查看作品集</a>
                     </div>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="佔位空白區"></div>
+    <!-- <div class="佔位空白區"></div> -->
 
-<!-- 
+    <!-- 
 
     <div class="container px-4 pt-5 中文" id="icon-grid">
         <h2 class="pb-2 border-bottom">網頁前後端應用</h2>
@@ -176,8 +187,7 @@
             <div class="row">
                 <div class="col-12 p-1">
                     <h6 class="ps-3">About</h6>
-                    <p class="text-justify">網站為個人作品集網站，實作種類為<span
-                            class="footer-strong">藝術／設計／軟體應用</span>
+                    <p class="text-justify">網站為個人作品集網站，實作種類為<span class="footer-strong">藝術／設計／軟體應用</span>
                     </p>
                 </div>
                 <hr>

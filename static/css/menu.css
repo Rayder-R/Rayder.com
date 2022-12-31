@@ -48,11 +48,11 @@
     z-index: 10;
 }
   
-#main {
+/* #main {
     transition: margin-right 0.5s;
     padding: 16px;
     float: right;
-}
+} */
   
 #main span {
     position: fixed;
