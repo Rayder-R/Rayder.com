@@ -20,7 +20,7 @@ def work():
     return render_template("work.html")
 
 
-@myweb.route("/work2")  # 函式的裝飾.供附加功能 1
+@myweb.route("/work2")  # 函式的裝飾.供附加功能
 def work2():
     return render_template("work2.html")
 
